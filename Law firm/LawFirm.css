@@ -1,0 +1,706 @@
+.header-nav {
+    width: 100%;
+    height: 60px;
+    background-color: #202F39;
+}
+
+@media screen and (min-width: 992px) {
+    .header-nav {
+        height: 100%;
+        background-color: #FFF;
+    }
+}
+
+.sidebar-wrapper--nav {
+    position: absolute;
+    width: 250px;
+    height: 100%;
+    left: -100%;
+    z-index: 1;
+    transition: 0.5s;
+    background-color: #202F39;
+    color: #FFF;
+}
+
+@media screen and (min-width: 992px) {
+    .sidebar-wrapper--nav {
+        width: 100%;
+        height: 90px;
+        left: 0;
+        background-color: #FFF;
+    }
+}
+
+.sidebar-wrapper--nav.active {
+    left: 0;
+}
+
+.sidebar-wrapper--nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 992px) {
+    .sidebar-wrapper--nav ul {
+        display: flex;
+        justify-content: space-around;
+        border-top: 1px solid #939393
+    }
+}
+
+.sidebar-wrapper--nav li {
+    padding: 11px 56px 11px 16px;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 992px) {
+    .sidebar-wrapper--nav li {
+        padding: 35px;
+        font-size: 18px;
+    }
+}
+
+.sidebar-wrapper--nav li:hover {
+    background-color: #E92C0C;
+}
+
+@media screen and (min-width: 992px) {
+    .sidebar-wrapper--nav li:hover {
+        background-color: transparent;
+        border-top: 4px solid #E92C0C;
+    }
+}
+
+.nav-item--header a {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    font-family: Droid Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 992px) {
+    .nav-item--header a {
+        color: #202F39;
+    }
+}
+
+.sidebar-wrapper--img {
+    position: absolute;
+    padding: 15px;
+    background-color: #202F39;
+}
+
+@media screen and (min-width: 992px) {
+    .sidebar-wrapper--img {
+        display: none;
+    }
+}
+
+.sidebar-img {
+    cursor: pointer;
+}
+
+.navigation-logo {
+    padding: 15px 0px 15px 66px;
+    font-size: 24px;
+    color: #FFF;
+}
+
+@media screen and (min-width: 992px) {
+    .navigation-logo {
+        text-align: center;
+        padding: 18px;
+        font-size: 40px;
+        color: #202F39;
+        background-color: #ACACAC;
+    }
+}
+
+.brand-name--img {
+    display: none;
+}
+
+@media screen and (min-width: 992px) {
+    .brand-name--img {
+        display: inline-block;
+    }
+}
+
+.wrapper-header--img {
+    position: relative;
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+    .wrapper-header--img {
+        top: 80px;
+        margin-bottom: 110px;
+    }
+}
+
+.wrapper-h1-btn {
+    position: absolute;
+    width: 70%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 768px) {
+    .wrapper-h1-btn {
+        width: 85%;
+        top: 30%;
+    }
+}
+
+.header-img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px #0000;
+    color: #936b6b;
+}
+
+.bolded-h1 {
+    font-weight: bold;
+}
+
+.header-info {
+    margin: 25px;
+    line-height: 25px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FFF;
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .header-info {
+        display: block;
+    }
+}
+
+.header-img--btn {
+    width: 145px;
+    padding: 15px 28px;
+    background-color: #E82C0C;
+    color: #FFF;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px #E82C0C;
+    border: none;
+}
+
+.header-img--btn:hover {
+    background-color: #FFF;
+    color: #000;
+    box-shadow: 2px 2px 10px #FFF;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 9px;
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #E92C0C;
+}
+
+@media screen and (min-width: 768px) {
+    h2 {
+        font-size: 42px;
+    }
+}
+
+h3 {
+    text-align: center;  
+    margin-bottom: 0px;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #202F39;
+}
+
+@media screen and (min-width: 768px) {
+    h3 {
+        font-size: 32px;
+    }
+}
+
+.section-practices {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .first-container--practices {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .second-container--practices {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.wrapper--practices {
+    width: 90%;
+    margin: 50px auto;
+    min-height: 300px;
+    text-align: center;
+    border: 1px solid #ACACAC;
+}
+
+@media screen and (min-width: 480px) {
+    .wrapper--practices {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .wrapper--practices {
+        width: 30%;
+    }
+}
+
+.practices-icons {
+    position: relative;
+    top: -25px;
+    border: 1px solid #E92C0C;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: #E92C0C;
+}
+
+.practices-title {
+    margin: 0 30px 40px 30px;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #202F39;
+}
+
+.practices-info {
+    margin: 25px;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ACACAC;
+}
+
+.hoover-color--btn:hover {
+    background-color: #202F39;
+    color: #FFF;
+    box-shadow: 2px 2px 10px #202F39;
+}
+
+.section-video {
+    text-align: center;
+    min-height: 350px;
+    margin-top: 30px;
+    padding-top: 50px;
+    background-color: #1FC9BE;
+}
+
+@media screen and (min-width: 768px) {
+    .section-video {
+        padding-bottom: 35px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .section-video {
+        display: flex;
+        justify-content: space-around;
+        max-height: 350px;
+    }
+}
+
+.iframe-wrapper {
+    position: relative;
+    width: 90%;
+    height: 0;
+    margin: 0 auto;
+    padding-bottom: 50%;
+}
+
+@media screen and (min-width: 768px) {
+    .iframe-wrapper {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .iframe-wrapper {
+        width: 35%;
+    }
+}
+
+iframe {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+    iframe {
+        height: 50%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .wrapper-video--text {
+        width: 45%;
+    }
+}
+
+.video-title {
+    margin: 30px;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FFF;
+}
+
+.video-title--bold {
+    font-weight: bold;
+}
+
+.video-info {
+    padding: 0 30px;
+    font-size: 16px;
+    color: #FFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.video-btn {
+    width: 150px;
+    margin: 20px;
+    padding: 15px;
+    background-color: #FFF;
+    color: #202F39;
+    border: none;
+    font-weight: bold;
+}
+
+.video-btn:hover {
+    background-color: transparent;
+    color: #FFF;
+    border: 2px solid #FFF;
+}
+
+.firm-info-section {
+    width: 100%;
+    min-height: 650px;
+    background-image: url(justice.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+
+.firm-info--title {
+    margin: 0 30px;
+    padding-top: 50px;
+    font-size: 28px;
+    color: #FFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.firm-info--title--bolded {
+    margin: 20px 20px 80px 20px;
+    color: #FFF;
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+    .circles-container {
+        display: flex;
+        width: 750px;
+        margin: 0 auto;
+    }
+}
+
+.circles {
+    width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+    .circles {
+        margin: 35px;
+    }
+}
+
+.circles-wrapper {
+    display: flex;
+}
+
+.circles-numbers {
+    font-size: 25px;
+    color: #000;
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: 25px;
+}
+
+@media screen and (min-width: 768px) {
+    .circles-numbers {
+        font-size: 50px;
+    }
+}
+
+.circles-info {
+    margin: 30px 0px 80px 0px;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.news-section {
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+    .news-body--wrapper {
+        display: flex;
+    }
+}
+
+.info-wrapper {
+    padding-bottom: 50px;
+}
+
+.news-img {
+    width: 90%;
+    padding-bottom: 15px;
+}
+
+.news-date {
+    font-size: 18px;
+    padding-right: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1FC9BE;
+}
+
+.news-by {
+    padding-left: 10px;
+    border-left: 1px solid #939393;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #939393;
+}
+
+.news-info {
+    margin: 25 15px;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #202F39;
+}
+
+.clients-section {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #ACACAC;
+}
+
+@media screen and (min-width: 992px) {
+    .container-clients {
+        display: flex;
+    }
+}
+
+.wrapper-client {
+    padding-top: 30px;
+}
+
+@media screen and (min-width: 640px) {
+    .wrapper-client {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+.client-img {
+    width: 100px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 640px) {
+    .client-img {
+        width: 200px;
+    }
+}
+
+.client-opinion {
+    padding-top: 15px;
+    line-height: 20px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #202F39;
+}
+
+@media screen and (min-width: 992px) {
+    .client-opinion {
+        margin: 18px 10px;
+    }
+}
+
+.client-name {
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #202F39;
+}
+
+.input-section {
+    text-align: center;
+    padding: 20px 15px;
+}
+
+@media screen and (min-width: 640px) {
+    .input-wrapper {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+.color-gray {
+    color: #202F39;
+}
+
+.color-aqua {
+    color: #1FC9BE;
+}
+
+.input-info {
+    font-size: 18px;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #939393;
+}
+
+.input-info-bolded {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 90%;
+    margin: 10px 0px;
+    padding: 15px;
+    background-color: #F6F6F6;
+    color: #939393;
+    border: none;
+}
+
+footer {
+    text-align: center;
+    padding: 55px 0px;
+    background-color: #202F39;
+}
+
+@media screen and (min-width: 992px) {
+    footer {
+        padding: 40px 0px 0px;
+    }
+}
+
+.footer-wrapper {
+    padding: 0 15px;
+}
+
+@media screen and (min-width: 992px) {
+    .footer-wrapper {
+        display: flex;
+    }
+}
+
+.wrapper-footer--child {
+    padding-top: 20px;
+}
+
+@media screen and (min-width: 992px) {
+    .wrapper-footer--child {
+        width: 22%;
+        padding: 20px;
+    }
+}
+
+.firm-logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.color-red {
+    color: red;
+}
+
+.firm-logo-title {
+    margin: 0;
+    font-size: 18px;
+    color: #96A3AB;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.founded-info {
+    font-size: 18px;
+    line-height: 24px;
+    color: #96A3AB;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-titles {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.footer-nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-nav li {
+    padding: 10px;
+}
+
+.nav-item--footer a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1FC9BE;
+}
+
+.adress-info {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #D3D3D3;
+}
+
+.firm-mail {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1FC9BE;
+}
+
+.wrapper-community--img {
+    padding-top: 20px;
+}
+
+.community-img {
+    width: 20px;
+}
+
+.workingtime {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #D3D3D3;
+}
