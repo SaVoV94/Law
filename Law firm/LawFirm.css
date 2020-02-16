@@ -1,17 +1,17 @@
-.header-nav {
+.header__nav {
     width: 100%;
     height: 60px;
     background-color: #202F39;
 }
 
 @media screen and (min-width: 992px) {
-    .header-nav {
+    .header__nav {
         height: 100%;
         background-color: #FFF;
     }
 }
 
-.sidebar-wrapper--nav {
+.sidebar__wrapper-nav {
     position: absolute;
     width: 250px;
     height: 100%;
@@ -23,7 +23,7 @@
 }
 
 @media screen and (min-width: 992px) {
-    .sidebar-wrapper--nav {
+    .sidebar__wrapper-nav {
         width: 100%;
         height: 90px;
         left: 0;
@@ -31,48 +31,48 @@
     }
 }
 
-.sidebar-wrapper--nav.active {
+.sidebar__wrapper-nav.active {
     left: 0;
 }
 
-.sidebar-wrapper--nav ul {
+.sidebar__wrapper-nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
 @media screen and (min-width: 992px) {
-    .sidebar-wrapper--nav ul {
+    .sidebar__wrapper-nav ul {
         display: flex;
         justify-content: space-around;
         border-top: 1px solid #939393
     }
 }
 
-.sidebar-wrapper--nav li {
+.sidebar__wrapper-nav li {
     padding: 11px 56px 11px 16px;
     font-size: 16px;
 }
 
 @media screen and (min-width: 992px) {
-    .sidebar-wrapper--nav li {
+    .sidebar__wrapper-nav li {
         padding: 35px;
         font-size: 18px;
     }
 }
 
-.sidebar-wrapper--nav li:hover {
+.sidebar__wrapper-nav li:hover {
     background-color: #E92C0C;
 }
 
 @media screen and (min-width: 992px) {
-    .sidebar-wrapper--nav li:hover {
+    .sidebar__wrapper-nav li:hover {
         background-color: transparent;
         border-top: 4px solid #E92C0C;
     }
 }
 
-.nav-item--header a {
+.header__nav-item a {
     display: block;
     color: #FFF;
     text-decoration: none;
@@ -81,19 +81,19 @@
 }
 
 @media screen and (min-width: 992px) {
-    .nav-item--header a {
+    .header__nav-item a {
         color: #202F39;
     }
 }
 
-.sidebar-wrapper--img {
+.sidebar__wrapper-img {
     position: absolute;
     padding: 15px;
     background-color: #202F39;
 }
 
 @media screen and (min-width: 992px) {
-    .sidebar-wrapper--img {
+    .sidebar__wrapper-img {
         display: none;
     }
 }
@@ -102,14 +102,15 @@
     cursor: pointer;
 }
 
-.navigation-logo {
+.firm-logo {
     padding: 15px 0px 15px 66px;
     font-size: 24px;
     color: #FFF;
+    background-color: #202F39;
 }
 
 @media screen and (min-width: 992px) {
-    .navigation-logo {
+    .firm-logo {
         text-align: center;
         padding: 18px;
         font-size: 40px;
@@ -128,19 +129,19 @@
     }
 }
 
-.wrapper-header--img {
+.header__wrapper-img {
     position: relative;
     text-align: center;
 }
 
 @media screen and (min-width: 992px) {
-    .wrapper-header--img {
+    .header__wrapper-img {
         top: 80px;
         margin-bottom: 110px;
     }
 }
 
-.wrapper-h1-btn {
+.wrapper__h1-btn {
     position: absolute;
     width: 70%;
     top: 40%;
@@ -149,7 +150,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .wrapper-h1-btn {
+    .wrapper__h1-btn {
         width: 85%;
         top: 30%;
     }
@@ -185,7 +186,7 @@ h1 {
     }
 }
 
-.header-img--btn {
+.red-button {
     width: 145px;
     padding: 15px 28px;
     background-color: #E82C0C;
@@ -195,7 +196,7 @@ h1 {
     border: none;
 }
 
-.header-img--btn:hover {
+.red-button:hover {
     background-color: #FFF;
     color: #000;
     box-shadow: 2px 2px 10px #FFF;
@@ -216,7 +217,7 @@ h2 {
 }
 
 h3 {
-    text-align: center;  
+    text-align: center;
     margin-bottom: 0px;
     font-size: 28px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -229,7 +230,7 @@ h3 {
     }
 }
 
-.section-practices {
+.section__practices {
     text-align: center;
 }
 
@@ -247,7 +248,7 @@ h3 {
     }
 }
 
-.wrapper--practices {
+.wrapper__practices {
     width: 90%;
     margin: 50px auto;
     min-height: 300px;
@@ -256,13 +257,13 @@ h3 {
 }
 
 @media screen and (min-width: 480px) {
-    .wrapper--practices {
+    .wrapper__practices {
         width: 400px;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .wrapper--practices {
+    .wrapper__practices {
         width: 30%;
     }
 }
@@ -296,7 +297,7 @@ h3 {
     box-shadow: 2px 2px 10px #202F39;
 }
 
-.section-video {
+.section__video {
     text-align: center;
     min-height: 350px;
     margin-top: 30px;
@@ -305,20 +306,20 @@ h3 {
 }
 
 @media screen and (min-width: 768px) {
-    .section-video {
+    .section__video {
         padding-bottom: 35px;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .section-video {
+    .section__video {
         display: flex;
         justify-content: space-around;
         max-height: 350px;
     }
 }
 
-.iframe-wrapper {
+.wrapper__iframe {
     position: relative;
     width: 90%;
     height: 0;
@@ -327,13 +328,13 @@ h3 {
 }
 
 @media screen and (min-width: 768px) {
-    .iframe-wrapper {
+    .wrapper__iframe {
         width: 70%;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .iframe-wrapper {
+    .wrapper__iframe {
         width: 35%;
     }
 }
@@ -353,7 +354,7 @@ iframe {
 }
 
 @media screen and (min-width: 1200px) {
-    .wrapper-video--text {
+    .wrapper__video-text {
         width: 45%;
     }
 }
@@ -392,10 +393,10 @@ iframe {
     border: 2px solid #FFF;
 }
 
-.firm-info-section {
+.section__firm-info {
     width: 100%;
     min-height: 650px;
-    background-image: url(justice.jpg);
+    background-image: url("Law Firm Img/justice.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -419,7 +420,7 @@ iframe {
 }
 
 @media screen and (min-width: 768px) {
-    .circles-container {
+    .container__circles {
         display: flex;
         width: 750px;
         margin: 0 auto;
@@ -436,7 +437,7 @@ iframe {
     }
 }
 
-.circles-wrapper {
+.wrapper__circles {
     display: flex;
 }
 
@@ -461,17 +462,17 @@ iframe {
     font-weight: bold;
 }
 
-.news-section {
+.section__news {
     text-align: center;
 }
 
 @media screen and (min-width: 992px) {
-    .news-body--wrapper {
+    .wrapper__news-body {
         display: flex;
     }
 }
 
-.info-wrapper {
+.wrapper__info {
     padding-bottom: 50px;
 }
 
@@ -502,24 +503,24 @@ iframe {
     color: #202F39;
 }
 
-.clients-section {
+.section__clients {
     text-align: center;
     padding: 20px 10px;
     background-color: #ACACAC;
 }
 
 @media screen and (min-width: 992px) {
-    .container-clients {
+    .container__clients {
         display: flex;
     }
 }
 
-.wrapper-client {
+.wrapper__client {
     padding-top: 30px;
 }
 
 @media screen and (min-width: 640px) {
-    .wrapper-client {
+    .wrapper__client {
         width: 70%;
         margin: 0 auto;
     }
@@ -558,13 +559,13 @@ iframe {
     color: #202F39;
 }
 
-.input-section {
+.section__input {
     text-align: center;
     padding: 20px 15px;
 }
 
 @media screen and (min-width: 640px) {
-    .input-wrapper {
+    .wrapper__input {
         width: 70%;
         margin: 0 auto;
     }
@@ -611,28 +612,28 @@ footer {
     }
 }
 
-.footer-wrapper {
+.wrapper__footer {
     padding: 0 15px;
 }
 
 @media screen and (min-width: 992px) {
-    .footer-wrapper {
+    .wrapper__footer {
         display: flex;
     }
 }
 
-.wrapper-footer--child {
+.wrapper__footer-child {
     padding-top: 20px;
 }
 
 @media screen and (min-width: 992px) {
-    .wrapper-footer--child {
+    .wrapper__footer-child {
         width: 22%;
         padding: 20px;
     }
 }
 
-.firm-logo {
+.footer__firm-logo {
     font-size: 25px;
     font-weight: bold;
     color: #FFF;
@@ -663,16 +664,16 @@ footer {
     color: #FFF;
 }
 
-.footer-nav ul {
+.footer__nav ul {
     padding: 0;
     list-style: none;
 }
 
-.footer-nav li {
+.footer__nav li {
     padding: 10px;
 }
 
-.nav-item--footer a {
+.footer__nav-item a {
     text-decoration: none;
     font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -691,7 +692,7 @@ footer {
     color: #1FC9BE;
 }
 
-.wrapper-community--img {
+.wrapper__community-img {
     padding-top: 20px;
 }
 
@@ -699,7 +700,7 @@ footer {
     width: 20px;
 }
 
-.workingtime {
+.working-time {
     font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #D3D3D3;
