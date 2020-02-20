@@ -336,6 +336,7 @@ h3 {
 @media screen and (min-width: 1200px) {
     .wrapper__iframe {
         width: 35%;
+        padding-bottom: 700px;
     }
 }
 
